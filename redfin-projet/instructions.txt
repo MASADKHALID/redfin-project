@@ -1,0 +1,26 @@
+creating instance
+  name
+  ubuntu
+  t2xlarge
+  kp
+  allow both
+connect ecc2
+  sudo apt update
+  sudo apt pgrade
+  sudo apt install python3-pip
+  python3 --version
+  sudo apt install python3.(VERSION)-venv
+  python3 -m venv redfin_venv
+  source redfin_venv/bin/activate
+  pip install pandas
+  pip install boto3
+  pip install --upgrade awscli
+  pip install apache-airflow
+  airflow version
+acces key required
+  aws configure
+  airflow standalone
+ec2==>security==>edit
+  inbound rule
+    anywhere ip4v
+    8080
